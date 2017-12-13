@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1486529200 source:c:\users\aldo\pendientes\busqueda\ranking.cpp
+	"ranking.h"
+
+1487652568 c:\users\aldo\pendientes\busqueda\ranking.h
+	<iomanip>
+	<iostream>
+	"song.h"
+	"rankingException.h"
+
+1486531396 c:\users\aldo\pendientes\busqueda\song.h
+	<iostream>
+	<string>
+
+1486441194 c:\users\aldo\pendientes\busqueda\rankingexception.h
+	<exception>
+	<string>
+
+1486530710 source:c:\users\aldo\pendientes\busqueda\song.cpp
+	"song.h"
+
+1487654429 source:c:\users\aldo\pendientes\busqueda\main.cpp
+	<iostream>
+	<fstream>
+	"ranking.h"
+
+1487828946 source:c:\users\aldo\pendientes\programacion\busqueda\ranking.cpp
+	"ranking.h"
+
+1487828933 c:\users\aldo\pendientes\programacion\busqueda\ranking.h
+	<iomanip>
+	<iostream>
+	"string.h"
+	"song.h"
+	"rankingException.h"
+
+1487802037 c:\users\aldo\pendientes\programacion\busqueda\song.h
+	<iostream>
+	<string>
+
+1486441194 c:\users\aldo\pendientes\programacion\busqueda\rankingexception.h
+	<exception>
+	<string>
+
+1487808366 source:c:\users\aldo\pendientes\programacion\busqueda\song.cpp
+	"song.h"
+
+1487828933 source:c:\users\aldo\pendientes\programacion\busqueda\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"ranking.h"
+
+1487828933 source:c:\users\aldo\cucei\estructura de datos\tareas\05 busquedas\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"ranking.h"
+
+1487828933 c:\users\aldo\cucei\estructura de datos\tareas\05 busquedas\ranking.h
+	<iomanip>
+	<iostream>
+	"string.h"
+	"song.h"
+	"rankingException.h"
+
+1487802037 c:\users\aldo\cucei\estructura de datos\tareas\05 busquedas\song.h
+	<iostream>
+	<string>
+
+1486441194 c:\users\aldo\cucei\estructura de datos\tareas\05 busquedas\rankingexception.h
+	<exception>
+	<string>
+
+1487808366 source:c:\users\aldo\cucei\estructura de datos\tareas\05 busquedas\song.cpp
+	"song.h"
+
+1487897261 source:c:\users\aldo\cucei\estructura de datos\tareas\05 busquedas\ranking.cpp
+	"ranking.h"
+

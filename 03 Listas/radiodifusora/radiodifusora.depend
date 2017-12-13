@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1486529412 source:c:\users\aldo\pendientes\ed lista musica\radiodifusora\main.cpp
+	<iostream>
+	"ranking.h"
+
+1486446709 c:\users\aldo\pendientes\ed lista musica\radiodifusora\song.h
+	<iostream>
+	<string>
+
+1486446709 source:c:\users\aldo\pendientes\ed lista musica\radiodifusora\song.cpp
+	"song.h"
+
+1486447814 c:\users\aldo\pendientes\ed lista musica\radiodifusora\ranking.h
+	<iomanip>
+	<iostream>
+	"song.h"
+	"rankingException.h"
+
+1486441194 c:\users\aldo\pendientes\ed lista musica\radiodifusora\rankingexception.h
+	<exception>
+	<string>
+
+1486529200 source:c:\users\aldo\pendientes\ed lista musica\radiodifusora\ranking.cpp
+	"ranking.h"
+
+1486529200 source:c:\users\aldo\cucei\estructura de datos\tareas\03 listas\radiodifusora\ranking.cpp
+	"ranking.h"
+
+1486447814 c:\users\aldo\cucei\estructura de datos\tareas\03 listas\radiodifusora\ranking.h
+	<iomanip>
+	<iostream>
+	"song.h"
+	"rankingException.h"
+
+1486531396 c:\users\aldo\cucei\estructura de datos\tareas\03 listas\radiodifusora\song.h
+	<iostream>
+	<string>
+
+1486441194 c:\users\aldo\cucei\estructura de datos\tareas\03 listas\radiodifusora\rankingexception.h
+	<exception>
+	<string>
+
+1486529744 source:c:\users\aldo\cucei\estructura de datos\tareas\03 listas\radiodifusora\main.cpp
+	<iostream>
+	"ranking.h"
+
+1486530710 source:c:\users\aldo\cucei\estructura de datos\tareas\03 listas\radiodifusora\song.cpp
+	"song.h"
+
+1487651125 source:c:\users\aldo\google drive\cucei\estructura de datos\tareas\03 listas\radiodifusora\main.cpp
+	<iostream>
+	"ranking.h"
+
+1486447814 c:\users\aldo\google drive\cucei\estructura de datos\tareas\03 listas\radiodifusora\ranking.h
+	<iomanip>
+	<iostream>
+	"song.h"
+	"rankingException.h"
+
+1486531396 c:\users\aldo\google drive\cucei\estructura de datos\tareas\03 listas\radiodifusora\song.h
+	<iostream>
+	<string>
+
+1486441194 c:\users\aldo\google drive\cucei\estructura de datos\tareas\03 listas\radiodifusora\rankingexception.h
+	<exception>
+	<string>
+
+1486529200 source:c:\users\aldo\google drive\cucei\estructura de datos\tareas\03 listas\radiodifusora\ranking.cpp
+	"ranking.h"
+
+1486530710 source:c:\users\aldo\google drive\cucei\estructura de datos\tareas\03 listas\radiodifusora\song.cpp
+	"song.h"
+

@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1493442739 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\12 arboles binarios\arboles\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"binaryTree.h"
+
+1493435323 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\12 arboles binarios\arboles\node.cpp
+	"node.h"
+
+1493434209 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\12 arboles binarios\arboles\node.h
+	<iostream>
+
+1493441940 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\12 arboles binarios\arboles\binarytree.cpp
+	"binaryTree.h"
+
+1493438059 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\12 arboles binarios\arboles\binarytree.h
+	"node.h"
+
+1493952287 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\13 arboles binarios avl\arboles\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
+1493756136 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\13 arboles binarios avl\arboles\binarytree.h
+	"node.h"
+
+1493603305 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\13 arboles binarios avl\arboles\node.h
+	<iostream>
+	"NodeException.h"
+
+1493041794 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\13 arboles binarios avl\arboles\nodeexception.h
+
+1493604401 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\13 arboles binarios avl\arboles\node.cpp
+	"node.h"
+
+1493604054 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\13 arboles binarios avl\arboles\binarytree.cpp
+	"binaryTree.h"
+
+1493947219 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\13 arboles binarios avl\arboles\avlnode.cpp
+

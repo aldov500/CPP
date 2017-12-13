@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1489801960 source:c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"linkedList.h"
+
+1489802372 source:c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\song.cpp
+	"song.h"
+
+1489791744 c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\song.h
+	<iostream>
+	<string>
+
+1489799546 source:c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\linkedlist.cpp
+	"linkedList.h"
+
+1489799546 c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\linkedlist.h
+	"node.h"
+
+1489796694 c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\node.h
+	"nodeException.h"
+	"song.h"
+
+1489790292 source:c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\node.cpp
+	"node.h"
+
+1489726606 c:\users\aldo\google drive\cucei\estructura de datos\tareas\09 apuntadores\linked\nodeexception.h
+	<string>
+
+1489799546 source:c:\users\aldo\desktop\linked\linkedlist.cpp
+	"linkedList.h"
+
+1489799546 c:\users\aldo\desktop\linked\linkedlist.h
+	"node.h"
+
+1489801960 source:c:\users\aldo\desktop\linked\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"linkedList.h"
+
+1489790292 source:c:\users\aldo\desktop\linked\node.cpp
+	"node.h"
+
+1489796694 c:\users\aldo\desktop\linked\node.h
+	"nodeException.h"
+	"song.h"
+
+1489726606 c:\users\aldo\desktop\linked\nodeexception.h
+	<string>
+
+1489791744 c:\users\aldo\desktop\linked\song.h
+	<iostream>
+	<string>
+
+1489802157 source:c:\users\aldo\desktop\linked\song.cpp
+	"song.h"
+
+1490315444 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"linkedList.h"
+
+1490314106 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\linkedlist.h
+	"node.h"
+
+1490322009 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\node.h
+	"nodeException.h"
+	"song.h"
+
+1490286069 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\nodeexception.h
+	<string>
+
+1490312176 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\song.h
+	<iostream>
+	<string>
+
+1490322931 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\linkedlist.cpp
+	"linkedList.h"
+
+1490322008 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\node.cpp
+	"node.h"
+
+1490314868 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked\song.cpp
+	"song.h"
+
+1490315444 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"linkedList.h"
+
+1490314106 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\linkedlist.h
+	"node.h"
+
+1490286030 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\node.h
+	"nodeException.h"
+	"song.h"
+
+1490286069 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\nodeexception.h
+	<string>
+
+1490312176 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\song.h
+	<iostream>
+	<string>
+
+1490286037 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\node.cpp
+	"node.h"
+
+1490314868 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\song.cpp
+	"song.h"
+
+1490316714 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 apuntadores\linked - copy\linkedlist.cpp
+	"linkedList.h"
+
+1490323914 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"linkedList.h"
+
+1490314106 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\linkedlist.h
+	"node.h"
+
+1490322009 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\node.h
+	"nodeException.h"
+	"song.h"
+
+1490286069 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\nodeexception.h
+	<string>
+
+1490312176 c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\song.h
+	<iostream>
+	<string>
+
+1490322008 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\node.cpp
+	"node.h"
+
+1490314868 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\song.cpp
+	"song.h"
+
+1490323141 source:c:\users\aldo\google drive\cucei 8vo\estructura de datos\tareas\09.2 listas linkeadas\linked\linkedlist.cpp
+	"linkedList.h"
+

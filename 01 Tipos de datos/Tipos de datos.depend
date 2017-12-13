@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1485060352 source:c:\users\aldo\cucei\estructura de datos\tarea 01\tipos de datos\main.cpp
+	<iostream>
+	"dataTypes.h"
+	"matrix.h"
+
+1485055586 source:c:\users\aldo\cucei\estructura de datos\tarea 01\tipos de datos\datatypes.cpp
+	"dataTypes.h"
+	<iostream>
+	<iomanip>
+	<math.h>
+
+1484947847 c:\users\aldo\cucei\estructura de datos\tarea 01\tipos de datos\datatypes.h
+	<string>
+
+1485029690 c:\users\aldo\cucei\estructura de datos\tarea 01\tipos de datos\matrix.h
+
+1485060521 source:c:\users\aldo\cucei\estructura de datos\tarea 01\tipos de datos\matrix.cpp
+	"matrix.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<iomanip>
+
+1485224808 source:c:\users\aldo\cucei\estructura de datos\tareas\01 tipos de datos\datatypes.cpp
+	"dataTypes.h"
+	<iostream>
+	<iomanip>
+	<math.h>
+
+1485224806 c:\users\aldo\cucei\estructura de datos\tareas\01 tipos de datos\datatypes.h
+	<string>
+
+1485446077 source:c:\users\aldo\cucei\estructura de datos\tareas\01 tipos de datos\main.cpp
+	<iostream>
+	"dataTypes.h"
+	"matrix.h"
+
+1485224808 c:\users\aldo\cucei\estructura de datos\tareas\01 tipos de datos\matrix.h
+
+1485446277 source:c:\users\aldo\cucei\estructura de datos\tareas\01 tipos de datos\matrix.cpp
+	"matrix.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<iomanip>
+

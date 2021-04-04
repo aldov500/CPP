@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Win_Usuarios</class>
+ <widget class="QDialog" name="Win_Usuarios">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>196</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="BTN_Nuevo">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>160</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTN_Aceptar">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>160</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Aceptar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="STC_ImagenUsuarios">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>161</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>20</y>
+     <width>111</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="STC_Nombre">
+      <property name="text">
+       <string>Nombre</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="STC_Usuario">
+      <property name="text">
+       <string>Usuario</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="STC_Email">
+      <property name="text">
+       <string>Email</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="STC_Pass">
+      <property name="text">
+       <string>Contraseña</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="STC_RePass">
+      <property name="text">
+       <string>Re Contraseña</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>20</y>
+     <width>201</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="EDT_Nombre"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="EDT_Usuario"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="EDT_Email"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="EDT_Pass"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="EDT_RePass"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

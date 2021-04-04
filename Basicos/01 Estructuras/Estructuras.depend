@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1484844442 source:c:\users\aldo\cucei\estructura de datos\actividad 01\estructuras\date.cpp
+	"date.h"
+
+1484842671 c:\users\aldo\cucei\estructura de datos\actividad 01\estructuras\date.h
+
+1484842669 source:c:\users\aldo\cucei\estructura de datos\actividad 01\estructuras\main.cpp
+	<iostream>
+
+1484843988 source:c:\users\aldo\cucei\estructura de datos\actividad 01\estructuras\name.cpp
+	"name.h"
+
+1484907352 c:\users\aldo\cucei\estructura de datos\actividad 01\estructuras\name.h
+	<string>
+
+1484907309 source:c:\users\aldo\cucei\estructura de datos\actividad 01\estructuras\student.cpp
+	"student.h"
+
+1484844314 c:\users\aldo\cucei\estructura de datos\actividad 01\estructuras\student.h
+	<string>
+	"name.h"
+	"date.h"
+

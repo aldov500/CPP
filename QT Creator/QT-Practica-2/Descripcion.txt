@@ -1,0 +1,22 @@
+La siguiente actividad consiste en desarrollar un programa para poder separar pelotas de 3 colores difernetes. La detección se llevará a cabo con una cámara y dos servomotores accionados con un Arduino.
+
+El primer paso despues de crear un proyecto nuevo, del tipo Widget y seleccionar el lugar donde se almacenará, es el de dirigirnos al archivo .pro en donde especificaremos el uso del puerto serial, así como la configuración de OpenCv. Seguido a eso, agregamos las librerías de mat2qimage al proyecto.
+
+En la parte grafica agregamos 3 etiquetas para mostrar las imagenes, un checkbox, una etiqueta de mensajes y seis displays lcd con sliders.
+
+En el archivo mainwindow.h agregamos las siguientes librerías, así como ĺas variables para el manejo del Arduino.
+
+En mainwindow.cpp establecemos dos nombres de espacio para las funciones estandar y opencv. Declaramos las matrices utilizadas globalmente, asi como variables de control.
+
+En el constructor de mainwindow ejectuamos la conexion de arduino con una función que se definirá mas abajo. Escribimos la declaración de una función slot de Qtimer, cada 10 ms y al final abrimos la cámara IP.
+
+Declaramos la definicion de la función de evento para mouse. Definimos coordenadas del click y controlamos la ejecución cuando hay un click dentro de la ventana. El primer click levanta una bandera para diferenciar entre el, y el segundo.
+
+Declaramos la definicion del detector de color. Este detector recibe los valores de los sliders para encontrar el contorno y detectar si hay un objeto en la camara.
+
+La funcion Ftimer ejecuta el recorte de una imagen en caso de ser seleccionada y obtiene una imagen pequeña con una region de interes. Se dibuja un marco en ella, y se detecta el color controlando la secuencia de los motores que se utilizan. El algoritmo escribe en el arduino los grados a moverse el motor respecto a cada color.
+
+Se declaran funciones para conectar Arduino, y para recibir asincronamente datos del mismo.
+
+Desde la ui, utilizando el refactor se declaran las funciones para obtener valores de los sliders, al igual que se utiliza en la definición para agregar los prototipos de funciones al header.
+

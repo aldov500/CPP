@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1485448191 source:c:\users\aldo\cucei\estructura de datos\actividades\arraylist\arraylist\list.cpp
+	"list.h"
+
+1485448191 c:\users\aldo\cucei\estructura de datos\actividades\arraylist\arraylist\list.h
+	<iostream>
+	"listException.h"
+
+1485447377 source:c:\users\aldo\cucei\estructura de datos\actividades\arraylist\arraylist\main.cpp
+	<iostream>
+	"list.h"
+
+1485448191 c:\users\aldo\cucei\estructura de datos\actividades\arraylist\arraylist\listexception.h
+	<exception>
+	<string>
+

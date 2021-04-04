@@ -1,0 +1,2 @@
+El programa a continuación mostrado es un cliente de correos, listo para redactar un mensaje y enviarlo.
+El primer paso es ingresar una dirección de correo valida, la cual recibirá el mensaje en formato de texto. Despues es necesario especificar el asunto en el siguiente campo, y por ultimo escribir el mensaje a envíar. Una vez ingresados los datos al dar click al botón envíar y esperar unos segundos podremos ver un mensaje de envío correcto. Si deseamos iniciar de nuevo, o mandar un nuevo correo podemos dar click al botón limpiar, el cual dejará la interfáz como nueva.

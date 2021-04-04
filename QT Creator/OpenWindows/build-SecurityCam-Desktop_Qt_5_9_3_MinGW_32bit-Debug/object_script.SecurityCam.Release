@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\win_login.o
+./release\win_error.o
+./release\win_start.o
+./release\win_usuarios.o
+./release\moc_mainwindow.o
+./release\moc_win_login.o
+./release\moc_win_error.o
+./release\moc_win_start.o
+./release\moc_win_usuarios.o
+);

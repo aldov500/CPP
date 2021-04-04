@@ -1,0 +1,17 @@
+Tutorial de diseño de Tarea 04
+
+Creación del proyecto QT
+
+En el apartado de bienvenida de QT, se crea un nuevo proyecto para una aplicación del tipo Widget. Al dar click en choose(seleccionar), se debe de ingresar el nombre del nuevo proyecto, asi como la ruta donde se almacenarán los archivos. Al final se especifica la versión del software para la aplicación, asi como los nombres de los archivos fuentes.
+
+Una vez creado el proyecto, comenzamos diseñando la interfaz de la ventana. La aplicación a diseñar es un cronometro, por lo que incluimos 3 display de 7 segmentos para representar los minutos, segundos y milisegungos. Tambien se dispone de 3 botones para controlar el funcionamiento. Paralelo a esto se agregaron 3 etiquetas. Todos los elementos están organizados con layouts verticales y horizontales.
+
+En el menu de Edit, encontramos la estructura del proyecto. Iniciamos en el area de los archivos fuentes, y en especial el archivo MainWindow.cpp, donde agregaremos #include<QTimer> para utilizar las funciones especiales de la clase.
+
+Configuramos variables locales, para hacer el control de la secuencia lógica. Tambien agregamos dentro de la funcion MainWindow un objeto de la clase QTimer, que conecta una función, en este caso cronLoop(), que es una funcion propia. La función declarada se ejecutará cada 1 milisegundo.
+
+El siguiente paso es diseñar la función que se repetirá cada 1 milisegundo, y que se encarga de hacer funcionar el cronometro. El funcionamiento depende de banderas, que serán ejecutadas por los botones. En caso de que el botón de play no haya sido ejecutado, se evalua si ha sido presionado reset, o pausa. Con play clickeado, se incrementa la variabla de milisegundos, despues se evalua que no haya pasado el equivalente a la siguiente variable que es 1 segundo = 1000 milisegundos. Si la variable pasa el valor limite, regresa al valor de cero y la varibale que guarda la magnitud seguiente, es incrementada. Despues de aplicar este mismo principio a as 3 variables que maneja el cronometro, se imprime en los display el valor de la variable.
+
+En caso de reset presionado, tanto las banderas como los diaplays regresan a su estado inicial.
+
+El siguiente paso es definir las funciones de los botones. Dentro del archivo mainwindow.ui damos click derecho al primer botón y seleccionamos go to slot. Dentro seleccionamos la opcion clicked(). En el archivo mainwindow.cpp se crearán las definiciones de funciones que involucran a botón, repetimos el proceso con los 3 botones, para obtener 3 definiciones. Dentro especificamos el valor de las banderas cuando ocurra el evento de que se clickee un botón 

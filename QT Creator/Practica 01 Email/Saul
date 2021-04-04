@@ -1,0 +1,152 @@
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+#include "mat2qimage.h"
+
+#include<opencv2/core/core.hpp>
+#include<opencv2/ml/ml.hpp>
+#include<opencv/cv.h>
+#include<opencv2/imgproc/imgproc.hpp>
+#include<opencv2/highgui/highgui.hpp>
+#include<opencv2/video/background_segm.hpp>
+#include<opencv2/videoio.hpp>
+#include<opencv2/imgcodecs.hpp>
+#include<qdebug.h>
+#include<QTimer>
+
+#include<QDirIterator>
+#include<QFileInfo>
+
+int contador =0;
+
+using namespace cv;
+
+QString dirCamara;
+QString dirCamara2;
+
+//cv::VideoCapture camara("http://192.168.100.2:8080/video");
+cv::VideoCapture camara(600);
+
+
+void MainWindow::fTimer(){
+
+    //Mat IMAGEN(300,400,CV_8UC3,Scalar(150,255,25));
+    Mat IMAGEN;
+    Mat IMAGEN2;
+    if(camara.isOpened()){
+    camara >> IMAGEN;
+    cv::resize(IMAGEN,IMAGEN2,Size(400,300),0,0,0);
+    QImage qImage = Mat2QImage(IMAGEN2);
+    QPixmap pixmap = QPixmap::fromImage(qImage);
+    ui->label->clear();
+    ui->label->setPixmap(pixmap);
+    }
+    else{
+        Mat inicial = cv::imread("../imagenes/ini.jpg");
+        Mat inicialSmall;
+        cv::resize(inicial,inicialSmall,Size(400,300),0,0,0);
+        QImage qImage = Mat2QImage(inicialSmall);
+        QPixmap pixmap = QPixmap::fromImage(qImage);
+        ui->label->clear();
+        ui->label->setPixmap(pixmap);
+    }
+
+
+
+}
+
+
+void MainWindow::fTimer2(){
+
+    QString ubicacion ="/home/saul/CORREOS/Maildir/process/landing";
+    QDirIterator directorio(ubicacion, QDir::NoFilter);
+    QString destinatario = "saul.eduardo.rodriguez.lopez@gmail.com";
+    contador = 0;
+    while(directorio.hasNext()){
+        QFileInfo infoArchivo(directorio.next());
+        if(infoArchivo.isFile() && infoArchivo.exists()){
+            contador++;
+
+            int temporal = destinatario.indexOf("@");
+            int temporal2 = destinatario.indexOf(".com");
+
+
+            //
+            //
+            if(temporal>=0 && temporal2>= 0){
+
+
+                Mat IMAGEN;
+
+
+
+                camara >> IMAGEN;
+
+
+
+                if(ui->radioc1->isChecked() ||ui->radioc2->isChecked() )   {         cv::imwrite("picture.png",IMAGEN); }
+
+
+
+
+
+
+                //Crea una cadena que tiene la funcion, permiso, asunto, archivo y destino de correo
+               QString comando = "mpack -s subject picture.png "  + destinatario;
+              //interpreta lo anterior en la consola
+               system(comando.toUtf8().constData());
+            }
+
+        }
+
+    }
+
+
+}
+
+
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+
+    ui->setupUi(this);
+
+    QTimer *cronometro2=new QTimer(this);
+       connect(cronometro2, SIGNAL(timeout()), this, SLOT(fTimer2()));
+       cronometro2->start(100);
+
+
+    ui->radioc1->setChecked(true);
+    QTimer *cronometro=new QTimer(this);
+    connect(cronometro, SIGNAL(timeout()), this, SLOT(fTimer()));
+    cronometro->start(30);
+
+
+}
+
+
+
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    QString camaraDIR = ui->lineEdit->text();
+   QString camaraDIR2 = ui->lineEdit_2->text();
+
+    if(!camaraDIR.isEmpty() && !camaraDIR2.isEmpty()){
+
+        if(ui->radioc1->isChecked()){
+        camara.open(camaraDIR.toUtf8().constData());
+        }
+              if(ui->radioc2->isChecked()){
+        camara.open(camaraDIR2.toUtf8().constData());
+
+        }
+
+}
+}

@@ -1,0 +1,27 @@
+Pseudocódigo de MainWindow.cpp Tarea 02
+
+Inicio
+  ¿Presionado envíar?
+    si
+      Declara variables almacenamiento de cadenas
+      Declara el archivo del correo
+      Declara comando de envío
+      ¿el archivo está disponible para editar?
+      si
+        Declara QtextStream enlazado al archivo
+        Ingresa destinatario
+        Ingresa el asunto
+        Ingresa el cuerpo
+        Cierra el archivo
+        Envía el comando
+        Display texto de ok
+      no
+        Error archivo     
+    no
+      ¿Presionado Limpiar?
+      si
+        Limpia todos los campos
+      no 
+        Repetir
+        
+        

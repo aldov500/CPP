@@ -1,0 +1,31 @@
+Reporte Practica 02
+
+RESUMEN
+Para esta practica se utilizarán 2 elementos externos a la interfáz de QT. Una camara IP y un Arduino para comunicación serial.
+
+El funcionamiento de la práctica es el de un detector de color. Cuando la cámara detecte un objeto de color rojo, por medio de una comunicación serial con Arduino encenderá el LED correspondiente.
+Cada detección de color, llevará a cabo un registro de evento, con fecha y hora, asi como el color detectado. El registro se llevará en un archivo csv. Este archivo podrá ser enviado a un correo electronico dado.
+
+INTRODUCCIÓN
+
+Al principio de los archivos fuente, se declarán las librerías necesarias para el funcionamiento de todos los aspectos de la práctica. Tambien declaran una serie de variables y banderas de control. Tambien se declara un objeto del tipo colorDetector, su funcionamiento se describe en dos archivos que conforman una librería.
+
+colorDetector está definido como una clase, con variabels disntintas para datos como enteros y strings, asi como fechas, horas, banderas, conexiones y matrices para imagenes, entro otros. Tambien contiene una serie de funciones para detectar el color, enviar correo, guardar registros y conectar el arduino.
+
+La definicion de la clase se encuentra en otro archivo, el cual implementa las funciones, siendo la mas importante la de detección.
+La función de detección calcula al iniciar los pixeles blancos de la imagen, tras ser tratada por los filtros, y ser alojada en una matriz. Dependiendo de si el limite de pixeles blancos es alcanzado, se ejecuta la deteccion. Si está por debajo de un valor especificado, las banderas de control se desactivan. Si es valor es superado, se encienden los LEDS en el arduino y se genera un registro. 
+
+La función toma como parametros el color a detectar, y la configuración del color, en un arreglo de enteros.
+
+Iniciando el Widget de la aplicación,  se crean dos timers ejecutandose cada 30 ms, y se abre la camara IP.
+
+La funcion general repetida, se encarga de ajustar los valores para las calibraciones, asi como las banderas de las mismas. Una vez calibrados los 3 colores se puede acceder a la configuración automatica.
+
+La segunda función, ejecuta por turnos la detección de color, cada 30 segundos cambiando entre uno y otro.
+
+Ademas se encuentran funciones apra Sliders y el filtro, los cuales son aplicados en tiempo real.
+
+La interfaz consiste en las dos imagenes, la original y la filtrada. Tambien hay 6 sliders para valores en los filtros, y uno para filtro gaussiano, ademas de un botón para ingresar una dirección de correo electronico y enviarlo.
+
+
+

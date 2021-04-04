@@ -1,0 +1,81 @@
+Máquinas pick and place y sus características principales.
+
+La tecnología de montaje superficial en un sistema de colocación de componentes ha dado como resultado los robots comúnmente conocidos como "pick and place". Son utilizadas para posicionar componentes electronicos en las tarjetas PCB. Son utilizadas para acelerar los procesos qeue antiguamente se llevaban a cabo por obreros. Las maquinas pick and place son caracterizadas por su alta precisión trabajando con un amplio rango de componentes que incluyen capacitores, resitores, circuitos integrados a pcbs mas grandes, hasta computadoras.
+
+Los montajes son realizados a tarjetas que cumplen para propositos industriales, medicos, automotrices, militares y de telecomonuicaciones. 
+
+Operación
+El sistema de colocación es parte de un sistema completo cuyo objetivo es la creación de una tarjeta pcb. Muchos subsistemas funcionan juntos para colocar el componnente correctamente en su lugar. El componente tiene una orientación que debe ser tambien ser respetada y para ello una serie de motores, y puntos de succión se encargan de tomar y soltar, asi como de girar los componentes y posicionarlos en la superficie. 
+
+Alimnetación de compońentes 
+Para la colocación de componentes, primero deben de estar a disposición de la maquina pick and place. En el diseño del equipo, los componentes se posicionan en una cinta de papel o plastico, así como una rejilla completa de tarjetas dependiendo del tamaño del pick and place.
+
+Conta transportadora
+A través del medio de la máquina hay una cinta transportadora, a lo largo de la cual viajan las PCB con las pistas impresas y una abrazadera de PCB en el centro de la máquina. La PCB está sujeta, y las boquillas recogen componentes individuales de los alimentadores, los giran a la orientación correcta y luego los colocan en las almohadillas apropiadas en la PCB con alta precisión. Las máquinas de gama alta pueden tener múltiples transportadores para producir múltiples productos iguales o diferentes simultáneamente
+
+Inspeccion Visual
+La pieza al ser transportada de los alimentadores a la pcb, puede ser fotografiada desde varias angulos, con el objetivo de encontrar daños, asi como error de regisro al colocar o tomar la pieza.Por ejemplo, si la pieza se desplazó 0,25 mm y se rotó 10 ° cuando se recogió, el cabezal de recolección ajustará la posición de colocación para colocar la pieza en la ubicación correcta. 
+
+Los sistemas ópticos generalmente son colocados en el brazo del robot y pueden realizar los cálculos ópticos sin perder tiempo, logrando así un menor factor de reducción de potencia. Los sistemas ópticos de gama alta montados en los cabezales también se pueden utilizar para capturar detalles de los componentes de tipo no estándar y guardarlos en una base de datos para uso futuro. 
+
+Una cámara separada en la cabeza de pick-and-place fotografía las marcas fiduciales en la PCB para medir con precisión su posición en la cinta transportadora. Dos marcas fiduciales, medidas en dos dimensiones cada una, generalmente colocadas en diagonal, permiten medir y compensar también la orientación y la expansión térmica del PCB. Algunas máquinas también pueden medir la cizalladura de PCB midiendo una tercera marca fiducial en la PCB.
+
+Capacidades de colocación de componentes, componentes/tiempo.
+Sin duda para medir la eficiencia de las pick and place tenemos que temar como referencia la capacidad que tiene de colocación de componentes. De esta forma podemos encontrarnos con diferentes sistemas. De los mejores sistemas existe Cobra de Essemtec que alcanza la colocación de 20,000 componetes por hora siendo una referencia de un sistema industrial de alta calidad
+
+
+Costos.
+Es posible fabricar sistemas de baja prosupuesto, que esten apoyados principalmente en proyecto open source. Dichos proyectos consiguen exitosamente la colocación de componentes qe no necesiten extrema precisicon.
+
+Sin embargo, el mercado de las maquinas formalmente conocidas como SMT varían costos en el mercado desde los $300 USD a los $10,000 USD en las gamas medias.
+
+
+Principales fabricantes.
+JUKI
+Yamaha
+Wenzhou Yingxing TechnologY
+1. Japan (6)
+Brands: Panasonic, Fuji, Juki, Yamaha, Sanyo, Sony
+These brands have big awareness and dominate majority of SMT market with features of high precision, cost-efficiency and stability.
+ 
+2. Europe (3)
+Brands: Siemens, Mydata, Assembleon
+These brands are widely applied in Europe area, due to their local awareness, perfect after-sale services and efficiency.
+ 
+3. USA (1)
+Universal, the biggest manufacturer in this field, well-known in United States.
+ 
+4. Korea (1)
+Samsung, a giant company in Korea and popular in global market. It is featured as low noise, cost-efficiency and precision.
+ 
+5. China (11)
+Over 11 brands such as Ridong, Jingtuo etc. are mainly targeting on low-end market. Some of them are widely used in LED assembly field.
+
+Limitaciones principales
+Claramente las maquinas smt representan un avance en la právtica repetitiva y tediosa de la colocación de componentes a una pcb para su posterior soldadura. Sin embargo, la segregacion del producto, dependiendo de las necesidades que rpresente, involucra limitaciones en los tamaños maximos y minimos. Debido a esto, las SMT son separadas en las que trabajan con componentes grandes y pequeños.
+
+
+BIBLIOGRAFIA
+http://www.nod-pcba.com/news/45-en.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
